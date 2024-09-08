@@ -1,0 +1,44 @@
+/* Apply a card-like appearance with box-shadow and padding */
+.resume-section {
+    background-color: #fff; /* Background color for sections */
+    padding: 20px; /* Padding inside each section */
+    margin-bottom: 20px; /* Space between sections */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Subtle shadow effect */
+    border-radius: 8px; /* Optional rounded corners */
+}
+
+/* Styling for section headers */
+.resume-section h2 {
+    text-transform: uppercase; /* Uppercase text for headers */
+    color: #0056b3; /* Custom color for section headers */
+    font-size: 1.5em; /* Size of the header text */
+    margin-bottom: 15px; /* Space below the header */
+    letter-spacing: 1px; /* Slight spacing between letters */
+}
+
+/* Styling for links */
+.resume-section a {
+    color: #0056b3; /* Professional color for links */
+    text-decoration: none; /* Remove underlining */
+    font-weight: bold; /* Bold links for emphasis */
+}
+
+.resume-section a:hover {
+    text-decoration: underline; /* Underline on hover to indicate interactivity */
+}
+
+/* Increase spacing between list items */
+.resume-section ul {
+    list-style-type: none; /* Remove default list styling */
+    padding-left: 0; /* Remove default list padding */
+}
+
+.resume-section ul li {
+    margin-bottom: 10px; /* Space between list items */
+    line-height: 1.6; /* Improved readability by increasing line spacing */
+}
+
+/* Optional: Make the page background slightly off-white for contrast */
+body {
+    background-color: #f4f4f9;
+}

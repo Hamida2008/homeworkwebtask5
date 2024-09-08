@@ -1,0 +1,49 @@
+header {
+    background: linear-gradient(to right, #6a11cb, #2575fc); /* Apply a gradient */
+    padding: 20px;
+    text-align: center;
+    color: white;
+  }
+  .intro p {
+    font-size: 24px;    /* Larger font size */
+    text-align: center; /* Center the text */
+    margin: 20px auto;
+    max-width: 80%;
+  }
+  nav {
+    background-color: #333;
+    padding: 10px 0;
+  }
+  
+  nav ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+  }
+  
+  nav ul li {
+    display: inline;
+    margin: 0 15px;
+  }
+  
+  nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 18px;
+    transition: color 0.3s ease;
+  }
+  
+  nav ul li a:hover {
+    color: #f39c12;  /* Hover color */
+  }
+  .profile img {
+    display: block;
+    margin: 20px auto;
+    border: 5px solid #ddd; /* Border around the image */
+    padding: 10px;          /* Padding between the border and image */
+    border-radius: 50%;     /* Make it circular */
+    width: 150px;
+    height: 150px;
+  }
+  

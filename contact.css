@@ -1,0 +1,67 @@
+/* Contact form container */
+.contact-container {
+    max-width: 600px; /* Limit the form width */
+    margin: 50px auto; /* Center the form on the page */
+    padding: 30px; /* Add padding inside the form */
+    background-color: #f9f9f9; /* Soft background color */
+    border: 1px solid #ddd; /* Light border around the form */
+    border-radius: 10px; /* Rounded corners */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Subtle shadow for depth */
+}
+
+/* Form headings */
+.contact-container h2 {
+    text-align: center; /* Center align the heading */
+    color: #333; /* Darker text color for the heading */
+    font-size: 1.8em;
+    margin-bottom: 20px;
+}
+
+/* Styling for the form labels */
+.contact-form label {
+    font-size: 1.1em;
+    color: #555; /* Soft color for labels */
+    display: block; /* Ensure labels are on their own lines */
+    margin-bottom: 8px; /* Space between label and input */
+}
+
+/* Input fields and text area styling */
+.contact-form input[type="text"],
+.contact-form input[type="email"],
+.contact-form textarea {
+    width: 100%; /* Full width of the container */
+    padding: 12px; /* Add padding inside input fields */
+    margin-bottom: 15px; /* Space between input fields */
+    border: 1px solid #ccc; /* Light border around inputs */
+    border-radius: 5px; /* Rounded corners */
+    box-sizing: border-box; /* Ensure padding is inside width */
+    font-size: 1em; /* Readable text size */
+    color: #333; /* Darker text color */
+}
+
+/* Submit button styling */
+.submit-button {
+    background-color: #0056b3; /* Distinct button color */
+    color: white; /* White text on button */
+    padding: 12px 20px; /* Padding for the button */
+    border: none; /* Remove default button borders */
+    border-radius: 5px; /* Rounded corners for button */
+    font-size: 1.2em; /* Slightly larger text */
+    cursor: pointer; /* Pointer cursor to indicate button */
+    width: 100%; /* Full width for better visibility */
+}
+
+/* Hover effect for submit button */
+.submit-button:hover {
+    background-color: #004099; /* Darker blue on hover */
+}
+
+/* Simple footer styling */
+footer {
+    text-align: center; /* Center the footer text */
+    padding: 20px 0; /* Space around the footer */
+    background-color: #f1f1f1; /* Light grey background */
+    font-size: 0.9em; /* Slightly smaller font size */
+    color: #666; /* Muted text color */
+    margin-top: 50px; /* Space above the footer */
+}
